@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 import time
 
-BASE_TOTAL_EPISODES = 10000 # Graph platues at around 5000, so 10000 is more than enough
+BASE_TOTAL_EPISODES = 10000 # Graph plateau at around 5000, so 10000 is more than enough
 EVAL_EPISODES = 5
 RENDER_EVALUATION = False # Set true if you want to see vroom vroom
 RESULTS_DIR = "experiment_results"
