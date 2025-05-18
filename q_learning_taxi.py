@@ -7,7 +7,7 @@ import time
 
 BASE_TOTAL_EPISODES = 10000 # Graph platues at around 5000, so 10000 is more than enough
 EVAL_EPISODES = 5
-RENDER_EVALUATION = False # Set ture if you want to see vroom vroom
+RENDER_EVALUATION = False # Set true if you want to see vroom vroom
 RESULTS_DIR = "experiment_results"
 
 if not os.path.exists(RESULTS_DIR):
